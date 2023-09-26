@@ -1,0 +1,236 @@
+/* 섹션 01 영역 */
+.Section01 {
+  width: 1560px;
+  margin: auto;
+  margin-bottom: 600px;
+}
+
+.Section01 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.Section01 ul li {
+  width: 350px;
+  height: 482px;
+}
+
+.Section01 ul li img {
+  width: 350px;
+  height: 482px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Secion01_heading {
+  margin: 20px;
+  height: 100px;
+}
+.Secion01_heading h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.Secion01_text {
+  height: 230px;
+}
+.Secion01_text p {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: #8d8c8c;
+}
+
+.Secion01_plus {
+  margin-top: 50px;
+}
+.Secion01_plus em {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Secion01_plus em:hover {
+  background-color: black;
+  color: white;
+}
+
+/* 섹션 02 영역 */
+
+.Section02 {
+  width: 100%;
+  margin: auto;
+  background-color: #f3ed9f62;
+}
+
+.Section02 ul {
+  display: flex;
+  width: 1560px;
+  margin: auto;
+}
+.Section02 ul li {
+  padding: 3rem;
+}
+
+.Section02 ul li h1 {
+  font-size: 2.3rem;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+/* 섹션 03영역 */
+
+.Setion03 {
+  width: 100%;
+  background-color: yellow;
+}
+.Setion03_wrap {
+  width: 1560px;
+  margin: auto;
+  text-align: center;
+  line-height: 3;
+  padding: 3rem;
+}
+
+.Setion03_wrap h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.Setion03_wrap p {
+  font-size: 1.5rem;
+}
+
+.Section03_btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.Section03_btn:hover {
+  background-color: #8d8c8c;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  /* 섹션 01 영역 */
+  .Section01 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0vh;
+  }
+
+  .Section01 ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .Section01 ul li {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+
+  .Section01 ul li img {
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .Secion01_heading {
+    margin: 20px;
+    height: 3vh;
+  }
+  .Secion01_heading h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+  }
+
+  .Secion01_text {
+    height: 0px;
+  }
+  .Secion01_text p {
+    padding: 0.7rem;
+    font-size: 0.5rem;
+    color: #8d8c8c;
+  }
+
+  .Secion01_plus {
+    margin-top: 50px;
+  }
+  .Secion01_plus em {
+    font-size: 0.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .Secion01_plus em:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* 섹션 02 영역 */
+
+  .Section02 {
+    width: 100%;
+    margin: auto;
+    background-color: #f3ed9f62;
+  }
+
+  .Section02 ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  .Section02 ul li {
+    padding: 1.2rem;
+  }
+
+  .Section02 ul li h1 {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    font-weight: 500;
+  }
+
+  /* 섹션 03영역 */
+
+  .Setion03 {
+    width: 100%;
+    background-color: yellow;
+  }
+  .Setion03_wrap {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 3;
+    padding: 2rem;
+  }
+
+  .Setion03_wrap h1 {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .Setion03_wrap p {
+    font-size: 0.7rem;
+  }
+
+  .Section03_btn {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .Section03_btn:hover {
+    background-color: #8d8c8c;
+    color: black;
+  }
+}

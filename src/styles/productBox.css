@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+.ProductList {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.ProductBox_wrap {
+  margin: 10px;
+}
+
+.ProductBox {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 2;
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1px solid #d6d6d69f;
+}
+
+.ProductBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.ProductBox::after {
+  content: "자세한 내용";
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 30%;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+.ProductBox::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #0000004d;
+  height: 75%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.ProductBox:hover::after {
+  opacity: 1;
+}
+.ProductBox:hover::before {
+  opacity: 1;
+}
+
+.ProductBox p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+.ProductBox h2 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: rgb(122, 122, 122);
+  font-family: "Work Sans", sans-serif;
+}
+.ProductBox h3 {
+  color: rgb(231, 124, 23);
+  font-weight: 800;
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .ProductList {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .ProductBox_wrap {
+    margin: 10px;
+  }
+
+  .ProductBox {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #d6d6d69f;
+  }
+
+  .ProductBox img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ProductBox::after {
+    content: "자세한 내용";
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+  .ProductBox::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: #0000004d;
+    height: 67%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+
+  .ProductBox:hover::after {
+    opacity: 1;
+  }
+  .ProductBox:hover::before {
+    opacity: 1;
+  }
+
+  .ProductBox p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+  }
+  .ProductBox h2 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: rgb(122, 122, 122);
+    font-family: "Work Sans", sans-serif;
+  }
+  .ProductBox h3 {
+    color: rgb(231, 124, 23);
+    font-weight: 800;
+    font-size: 0.5rem;
+  }
+}

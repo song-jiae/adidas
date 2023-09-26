@@ -1,0 +1,88 @@
+.ProductList {
+  width: 80%;
+  margin: auto;
+}
+
+.All_heading {
+}
+
+.All_heading ul {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.All_heading ul li {
+  padding: 0.5rem 1rem;
+  border: 1px solid #6b6b6b;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  transition: 0.1s;
+}
+.All_heading ul .first {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+
+.All_heading ul .first:hover {
+  background-color: rgb(241, 241, 241);
+  color: black;
+}
+
+.All_heading ul .second:hover {
+  background-color: black;
+  color: white;
+}
+.All_heading ul .third:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .ProductList {
+    width: 100%;
+    margin: auto;
+  }
+
+  .All_heading {
+  }
+
+  .All_heading ul {
+    display: flex;
+    margin: 50px;
+  }
+  .All_heading ul li {
+    padding: 0.5rem 0.2rem;
+    border: 1px solid #6b6b6b;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1rem;
+    transition: 0.1s;
+  }
+  .All_heading ul .first {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    transition: 0.2s;
+  }
+
+  .All_heading ul .first:hover {
+    background-color: rgb(241, 241, 241);
+    color: black;
+  }
+
+  .All_heading ul .second:hover {
+    background-color: black;
+    color: white;
+  }
+  .All_heading ul .third:hover {
+    background-color: black;
+    color: white;
+  }
+}

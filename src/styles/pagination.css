@@ -1,0 +1,42 @@
+.pagination {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 100px;
+}
+  
+  
+  .pagination li {
+    padding: 30px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 0px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pagination a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* 활성 페이지 스타일 */
+
+  .pagination li.active{
+    border: 1px solid #000;
+    color: red;
+  }
+
+
+  .pagination li.active a {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+

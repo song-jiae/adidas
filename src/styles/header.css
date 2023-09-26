@@ -1,0 +1,90 @@
+.Header {
+  margin: auto;
+}
+
+.Header_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 1560px;
+  margin: auto;
+}
+
+.Header_wrap img {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+}
+
+.Header_wrap ul {
+  display: flex;
+  align-items: center;
+}
+.Header_wrap ul li {
+  padding: 2rem;
+  cursor: pointer;
+  color: rgb(156, 156, 156);
+}
+
+.Header_wrap ul li:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.Header ul > li form input {
+  padding: 0.5rem 2rem;
+  border: 1px solid #dddddd;
+}
+
+.Header ul > li form input:hover {
+  border: 1px solid #000;
+}
+
+@media screen and (max-width: 767px) {
+  .Header {
+    margin: auto;
+    width: 100%;
+  }
+
+  .Header_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+  }
+
+  .Header_wrap img {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+
+  .Header_wrap ul {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .Header_wrap ul li {
+    padding: 2rem;
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+  }
+
+  .Header_wrap ul li:hover {
+    color: black;
+    font-weight: bold;
+  }
+
+  .Header ul > li form input {
+    padding: 0.5rem 2rem;
+    border: 1px solid #dddddd;
+  }
+
+  .Header ul > li form input:hover {
+    border: 1px solid #000;
+  }
+}
