@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/adidas/static/css/main.40ed1994.css",
-    "main.js": "/adidas/static/js/main.49b473e5.js",
-    "static/js/787.a09012be.chunk.js": "/adidas/static/js/787.a09012be.chunk.js",
-    "index.html": "/adidas/index.html",
-    "main.40ed1994.css.map": "/adidas/static/css/main.40ed1994.css.map",
-    "main.49b473e5.js.map": "/adidas/static/js/main.49b473e5.js.map",
-    "787.a09012be.chunk.js.map": "/adidas/static/js/787.a09012be.chunk.js.map"
+    "main.css": "/song-jiae/adidas.git/static/css/main.40ed1994.css",
+    "main.js": "/song-jiae/adidas.git/static/js/main.f4f8bafd.js",
+    "static/js/787.a09012be.chunk.js": "/song-jiae/adidas.git/static/js/787.a09012be.chunk.js",
+    "index.html": "/song-jiae/adidas.git/index.html",
+    "main.40ed1994.css.map": "/song-jiae/adidas.git/static/css/main.40ed1994.css.map",
+    "main.f4f8bafd.js.map": "/song-jiae/adidas.git/static/js/main.f4f8bafd.js.map",
+    "787.a09012be.chunk.js.map": "/song-jiae/adidas.git/static/js/787.a09012be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40ed1994.css",
-    "static/js/main.49b473e5.js"
+    "static/js/main.f4f8bafd.js"
   ]
 }
