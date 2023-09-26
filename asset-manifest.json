@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adidas/static/css/main.40ed1994.css",
+    "main.js": "/adidas/static/js/main.49b473e5.js",
+    "static/js/787.a09012be.chunk.js": "/adidas/static/js/787.a09012be.chunk.js",
+    "index.html": "/adidas/index.html",
+    "main.40ed1994.css.map": "/adidas/static/css/main.40ed1994.css.map",
+    "main.49b473e5.js.map": "/adidas/static/js/main.49b473e5.js.map",
+    "787.a09012be.chunk.js.map": "/adidas/static/js/787.a09012be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40ed1994.css",
+    "static/js/main.49b473e5.js"
+  ]
+}
